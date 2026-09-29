@@ -1,0 +1,13 @@
+export default function SectionHeading({ eyebrow, title, subtitle }) {
+  return (
+    <div className="reveal mx-auto mb-14 max-w-2xl text-center">
+      <p className="font-mono text-sm tracking-widest text-indigo-500 uppercase dark:text-indigo-400">
+        {eyebrow}
+      </p>
+      <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl dark:text-white">
+        {title}
+      </h2>
+      {subtitle && <p className="mt-4 text-slate-600 dark:text-slate-400">{subtitle}</p>}
+    </div>
+  );
+}
