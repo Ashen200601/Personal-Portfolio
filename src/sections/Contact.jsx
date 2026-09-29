@@ -10,7 +10,7 @@ const info = [
 ];
 
 const inputClass =
-  "w-full rounded-xl border border-slate-300 bg-white/80 px-4 py-3 text-slate-900 outline-none transition placeholder:text-slate-400 focus:border-indigo-500 focus:ring-4 focus:ring-indigo-500/15 dark:border-white/10 dark:bg-white/5 dark:text-white";
+  "w-full rounded-xl border border-neutral-300 bg-white/80 px-4 py-3 text-neutral-900 outline-none transition placeholder:text-neutral-400 focus:border-accent-500 focus:ring-4 focus:ring-accent-500/15 dark:border-white/10 dark:bg-white/5 dark:text-white";
 
 export default function Contact() {
   const [form, setForm] = useState({ name: "", email: "", message: "" });
@@ -43,14 +43,14 @@ export default function Contact() {
                 <Tag
                   key={label}
                   href={href}
-                  className="card flex items-center gap-4 p-5 transition hover:border-indigo-500/40"
+                  className="card flex items-center gap-4 p-5 transition hover:border-accent-500/40"
                 >
-                  <div className="grid h-12 w-12 shrink-0 place-items-center rounded-xl bg-gradient-to-br from-indigo-500 to-violet-600 text-white">
+                  <div className="grid h-12 w-12 shrink-0 place-items-center rounded-xl bg-gradient-to-br from-accent-500 to-accent-600 text-neutral-950">
                     <Icon size={20} />
                   </div>
                   <div className="min-w-0">
-                    <p className="text-sm text-slate-500">{label}</p>
-                    <p className="truncate font-semibold text-slate-900 dark:text-white">{value}</p>
+                    <p className="text-sm text-neutral-500">{label}</p>
+                    <p className="truncate font-semibold text-neutral-900 dark:text-white">{value}</p>
                   </div>
                 </Tag>
               );
@@ -74,7 +74,7 @@ export default function Contact() {
             </div>
             <button
               type="submit"
-              className="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-indigo-500 to-violet-600 px-6 py-3.5 font-semibold text-white shadow-lg shadow-indigo-500/30 transition hover:shadow-indigo-500/50 sm:w-auto"
+              className="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-accent-500 to-accent-600 px-6 py-3.5 font-semibold text-neutral-950 shadow-lg shadow-accent-500/30 transition hover:shadow-accent-500/50 sm:w-auto"
             >
               <FiSend /> Send message
             </button>

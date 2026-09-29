@@ -1,163 +1,163 @@
-// ───────────────────────────────────────────────────────────
-// All portfolio content lives here. Replace the demo values
-// with your own details — the components read from this file.
-// ───────────────────────────────────────────────────────────
 
 export const profile = {
-  name: "Alex Morgan",
+  name: "Ashen Nayanajith",
   role: "Full-Stack Developer",
-  roles: ["Full-Stack Developer", "React Enthusiast", "UI Craftsman", "Problem Solver"],
+  roles: ["Full-Stack Developer", "Backend Developer","Entrepreneur","ZOHO Consultant", "Problem Solver"],
   tagline:
-    "I build fast, accessible and beautiful web experiences — from pixel-perfect interfaces to scalable back-ends.",
+    "Building practical software solutions with a mindset for both technology and business.",
   location: "Remote · Worldwide",
-  email: "hello@example.com",
-  phone: "+1 (555) 123-4567",
+  email: "ashennayanajith06@gmail.com",
+  phone: "0762690393",
   resumeUrl: "#",
-  avatar: "", // e.g. "/avatar.jpg" (put the image in /public). Empty = initials.
+  photo: "/profile-cutout.webp", // background-removed portrait in /public
   socials: {
-    github: "https://github.com/",
-    linkedin: "https://linkedin.com/",
-    twitter: "https://x.com/",
+    github: "https://github.com/Ashen200601",
+    linkedin: "https://www.linkedin.com/in/ashen-nayanajith-783632342",
+    
   },
 };
 
 export const about = {
   paragraphs: [
-    "I'm a developer who loves turning ideas into polished products. Over the past few years I've worked on everything from small business websites to large-scale dashboards used by thousands of people.",
-    "My focus is on clean architecture, thoughtful design and performance. When I'm not coding, you'll find me exploring new tech, contributing to open source, or sketching UI ideas.",
+    "I am a Business Information Systems student and aspiring full-stack developer with a strong interest in technology, business, and entrepreneurship. My journey from Commerce and ICT into software development has helped me understand both business needs and technical solutions. I am continuously developing my skills in modern software technologies while strengthening my ability to identify real-world problems, explore opportunities, and turn ideas into practical solutions. I believe in learning by doing, taking on challenges, and continuously improving myself to become a developer with an entrepreneurial mindset who creates meaningful value through technology."
   ],
   stats: [
-    { value: "3+", label: "Years experience" },
-    { value: "25+", label: "Projects completed" },
-    { value: "15+", label: "Happy clients" },
+    { value: "2+", label: "Years experience" },
+    { value: "4+", label: "Projects completed" },
+    { value: "4+", label: "Happy clients" },
     { value: "∞", label: "Cups of coffee" },
   ],
 };
 
-// Icon keys map to react-icons in src/sections/Skills.jsx
+
 export const skills = [
   {
     category: "Frontend",
     items: [
-      { name: "React", icon: "react", level: 90 },
-      { name: "JavaScript", icon: "js", level: 90 },
-      { name: "TypeScript", icon: "ts", level: 80 },
-      { name: "Tailwind CSS", icon: "tailwind", level: 88 },
-      { name: "HTML5", icon: "html", level: 95 },
-      { name: "CSS3", icon: "css", level: 88 },
+      { name: "React", icon: "react", level: 85 },
+      { name: "Next.js", icon: "next", level: 75 },
+      { name: "JavaScript", icon: "js", level: 85 },
+      { name: "TypeScript", icon: "ts", level: 70 },
+      { name: "Tailwind CSS", icon: "tailwind", level: 80 },
+      { name: "HTML5", icon: "html", level: 90 },
+      { name: "CSS3", icon: "css", level: 85 },
     ],
   },
   {
     category: "Backend",
     items: [
-      { name: "Node.js", icon: "node", level: 82 },
-      { name: "Express", icon: "express", level: 80 },
-      { name: "MongoDB", icon: "mongo", level: 75 },
-      { name: "PostgreSQL", icon: "postgres", level: 70 },
+      { name: "Java", icon: "java", level: 85 },
+      { name: "Spring Boot", icon: "spring", level: 80 },
+      { name: "Spring Security", icon: "springsecurity", level: 70 },
+      { name: "REST APIs", icon: "api", level: 80 },
+      { name: "JWT Authentication", icon: "jwt", level: 75 },
+      { name: "JPA / Hibernate", icon: "hibernate", level: 75 },
     ],
   },
   {
-    category: "Tools",
+    category: "Database & Tools",
     items: [
-      { name: "Git", icon: "git", level: 88 },
-      { name: "Figma", icon: "figma", level: 75 },
+      { name: "PostgreSQL", icon: "postgres", level: 80 },
+      { name: "Git", icon: "git", level: 85 },
+      { name: "GitHub", icon: "github", level: 85 },
       { name: "Docker", icon: "docker", level: 65 },
-      { name: "VS Code", icon: "vscode", level: 92 },
+      { name: "AWS", icon: "aws", level: 55 },
+      { name: "VS Code", icon: "vscode", level: 90 },
     ],
   },
 ];
 
 export const projects = [
   {
-    title: "ShopSphere",
+    title: "ExamFlow",
     description:
-      "A full-featured e-commerce platform with cart, payments, admin dashboard and real-time order tracking.",
-    tags: ["React", "Node.js", "MongoDB", "Stripe"],
+      "A full-stack examination and learning management platform with student, instructor, teacher, admin and payment management features.",
+    tags: ["Java", "Spring Boot", "React", "PostgreSQL", "JWT"],
     category: "Full-Stack",
     gradient: "from-indigo-500 to-violet-600",
     live: "#",
     github: "#",
     featured: true,
+    status: "Ongoing",
   },
   {
-    title: "TaskFlow",
+    title: "JobPulse",
     description:
-      "Kanban-style project management app with drag & drop, team collaboration and dark mode.",
-    tags: ["React", "Tailwind", "Firebase"],
-    category: "Frontend",
+      "A full-stack job portal designed to connect job seekers and employers with authentication, job management and user-specific features.",
+    tags: ["Java", "Spring Boot", "React", "PostgreSQL", "JWT"],
+    category: "Full-Stack",
     gradient: "from-cyan-500 to-blue-600",
     live: "#",
     github: "#",
     featured: true,
+    status: "Completed",
   },
   {
-    title: "WeatherNow",
+    title: "BizBook365",
     description:
-      "Beautiful weather dashboard with 7-day forecasts, location search and animated conditions.",
-    tags: ["React", "API", "Charts"],
-    category: "Frontend",
+      "An e-commerce web application built with WordPress and WooCommerce, providing an online platform for products, customers and online sales.",
+    tags: ["WordPress", "WooCommerce", "PHP", "E-Commerce"],
+    category: "E-Commerce",
     gradient: "from-amber-500 to-orange-600",
     live: "#",
     github: "#",
+    featured: false,
+    status: "Completed",
   },
   {
-    title: "DevBlog API",
+    title: "Courier Management System",
     description:
-      "RESTful blogging API with JWT auth, role-based access, pagination and full test coverage.",
-    tags: ["Node.js", "Express", "PostgreSQL"],
-    category: "Backend",
+      "An ongoing project focused on developing a digital solution for managing courier and delivery operations.",
+    tags: ["Java", "Spring Boot", "React", "PostgreSQL"],
+    category: "Full-Stack",
     gradient: "from-emerald-500 to-teal-600",
     live: "#",
     github: "#",
-  },
-  {
-    title: "ChatWave",
-    description:
-      "Real-time chat app with rooms, typing indicators, file sharing and message reactions.",
-    tags: ["React", "Socket.io", "Node.js"],
-    category: "Full-Stack",
-    gradient: "from-pink-500 to-rose-600",
-    live: "#",
-    github: "#",
-  },
-  {
-    title: "Portfolio v1",
-    description: "My first personal site — a responsive single-page portfolio with smooth animations.",
-    tags: ["HTML", "CSS", "JavaScript"],
-    category: "Frontend",
-    gradient: "from-slate-500 to-slate-700",
-    live: "#",
-    github: "#",
+    featured: true,
+    status: "Ongoing",
   },
 ];
 
 export const education = [
   {
-    degree: "B.Sc. in Computer Science",
-    school: "State University",
-    period: "2019 — 2023",
+    degree: "B.Sc. in Business Information Systems",
+    school: "University of Sri Jayewardenepura",
+    period: "2026 — Present",
     description:
-      "Focused on software engineering, data structures and web technologies. Graduated with honors.",
-    highlights: ["GPA 3.8 / 4.0", "Dean's List", "Final project: AI study planner"],
+      "Currently pursuing a degree in Business Information Systems, developing knowledge across information technology, business management, software development and digital solutions.",
+    highlights: [
+      "Currently in 1st Year",
+      "Business Information Systems",
+      "Technology & Business",
+    ],
   },
   {
-    degree: "Full-Stack Web Development Bootcamp",
-    school: "Online Academy",
-    period: "2022",
-    description: "Intensive program covering the MERN stack, testing and deployment.",
-    highlights: ["12 hands-on projects", "Capstone: e-commerce app"],
+    degree: "G.C.E. Advanced Level — Commerce Stream",
+    school: "Bomiriya Central College",
+    period: "2024",
+    description:
+      "Completed the G.C.E. Advanced Level examination in the Commerce stream, building a strong foundation in business, accounting and economics.",
+    highlights: [
+      "3 A Passes",
+      "Z-Score: 1.94",
+      "Commerce Stream",
+    ],
   },
   {
-    degree: "Higher Secondary Education",
-    school: "City High School",
-    period: "2017 — 2019",
-    description: "Science stream with Mathematics and Computer Science.",
-    highlights: ["92% aggregate"],
+    degree: "G.C.E. Ordinary Level",
+    school: "Bomiriya Central College",
+    period: "2021 (2022)",
+    description:
+      "Completed the G.C.E. Ordinary Level examination with strong academic results and developed an early interest in both business and technology.",
+    highlights: [
+      "8 A Passes",
+      "1 B Pass",
+      "Completed in 2021 (Exam held in 2022)",
+    ],
   },
 ];
 
 export const certifications = [
-  { name: "Meta Front-End Developer", issuer: "Coursera", year: "2023" },
-  { name: "JavaScript Algorithms & Data Structures", issuer: "freeCodeCamp", year: "2022" },
-  { name: "AWS Cloud Practitioner", issuer: "Amazon", year: "2024" },
+  { name: "Python for Beginners", issuer: "University Of Moratuwa", year: "2022" },
+  { name: "Web Development for Beginners", issuer: "University Of Moratuwa", year: "2022" },
 ];
