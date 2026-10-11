@@ -76,7 +76,7 @@ export default function Contact() {
               type="submit"
               className="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-accent-500 to-accent-600 px-6 py-3.5 font-semibold text-neutral-950 shadow-lg shadow-accent-500/30 transition hover:shadow-accent-500/50 sm:w-auto"
             >
-              <FiSend /> Send message
+              <FiSend /> Send mess
             </button>
             {sent && (
               <p className="inline-flex items-center gap-2 text-sm font-medium text-emerald-600 dark:text-emerald-400">
