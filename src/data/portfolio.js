@@ -32,6 +32,28 @@ export const about = {
 
 export const experience = [
   {
+    role: "Forward Deployment Engineer",
+    company: "Delorean Lanka Solutions",
+    start: "2026-07-01", // YYYY-MM-DD
+    end: null, // current role
+    description:
+      "Working directly with clients to build, deploy and support industrial-grade applications, covering development, database operations, Zoho consulting and implementation.",
+    areas: [
+      "Industrial-Grade Development",
+      "Database Operations",
+      "Zoho Consulting & Implementation",
+      "Problem Solving",
+    ],
+    highlights: [
+      "Handle several major transporters and corporate customers as clients, adapting and deploying solutions to fit their operations.",
+      "Deliver major developments on industrial-grade applications using Java and Spring Boot.",
+      "Manage database operations on PostgreSQL for client production systems.",
+      "Provide Zoho consulting and end-to-end implementations for client business processes.",
+      "Solve technical and business problems for clients, from diagnosing root causes to delivering fixes.",
+    ],
+    tags: ["Java", "Spring Boot", "PostgreSQL", "JasperReports", "JavaScript", "GitHub", "Zoho"],
+  },
+  {
     role: "Senior Implementation Engineer",
     company: "Asian Logistic Solutions",
     start: "2025-01-01", // YYYY-MM-DD

@@ -51,7 +51,15 @@ export default function Experience() {
                 <div className="card p-6 sm:p-8">
                   <div className="flex flex-wrap items-start justify-between gap-3">
                     <div>
-                      <h3 className="text-xl font-bold text-neutral-900 dark:text-white">{e.role}</h3>
+                      <h3 className="flex flex-wrap items-center gap-x-3 gap-y-1 text-xl font-bold text-neutral-900 dark:text-white">
+                        {e.role}
+                        {!e.end && (
+                          <span className="inline-flex items-center gap-1.5 rounded-full bg-emerald-500/10 px-2.5 py-0.5 text-xs font-semibold text-emerald-700 dark:text-emerald-400">
+                            <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-emerald-500" />
+                            Current
+                          </span>
+                        )}
+                      </h3>
                       <p className="font-medium text-accent-600 dark:text-accent-400">{e.company}</p>
                     </div>
                     <div className="flex flex-wrap gap-2">
