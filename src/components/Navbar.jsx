@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { FiMenu, FiX, FiSun, FiMoon } from "react-icons/fi";
 import { profile } from "../data/portfolio";
 
-const links = ["Home", "About", "Skills", "Projects", "Education", "Contact"];
+const links = ["Home", "About", "Experience", "Skills", "Projects", "Education", "Contact"];
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
@@ -55,7 +55,7 @@ export default function Navbar() {
           <span className="text-gradient">.dev</span>
         </a>
 
-        <ul className="hidden items-center gap-1 md:flex">
+        <ul className="hidden items-center gap-1 lg:flex">
           {links.map((l) => {
             const id = l.toLowerCase();
             const isActive = active === id;
@@ -87,7 +87,7 @@ export default function Navbar() {
           <button
             onClick={() => setOpen((o) => !o)}
             aria-label="Toggle menu"
-            className="grid h-10 w-10 place-items-center rounded-full text-neutral-700 transition hover:bg-neutral-200/60 md:hidden dark:text-neutral-200 dark:hover:bg-white/10"
+            className="grid h-10 w-10 place-items-center rounded-full text-neutral-700 transition hover:bg-neutral-200/60 lg:hidden dark:text-neutral-200 dark:hover:bg-white/10"
           >
             {open ? <FiX size={20} /> : <FiMenu size={20} />}
           </button>
@@ -96,7 +96,7 @@ export default function Navbar() {
 
    
       <div
-        className={`overflow-hidden border-neutral-200 bg-white/95 backdrop-blur-lg transition-[max-height] duration-300 md:hidden dark:border-white/10 dark:bg-ink-950/95 ${
+        className={`overflow-hidden border-neutral-200 bg-white/95 backdrop-blur-lg transition-[max-height] duration-300 lg:hidden dark:border-white/10 dark:bg-ink-950/95 ${
           open ? "max-h-96 border-b" : "max-h-0"
         }`}
       >

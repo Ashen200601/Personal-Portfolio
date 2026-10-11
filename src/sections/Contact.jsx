@@ -27,7 +27,7 @@ export default function Contact() {
   };
 
   return (
-    <section id="contact" className="py-24">
+    <section id="contact" className="bg-neutral-100/60 py-24 dark:bg-white/[0.02]">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <SectionHeading
           eyebrow="Contact"

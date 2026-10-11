@@ -10,7 +10,7 @@ export default function Projects() {
   const shown = filter === "All" ? projects : projects.filter((p) => p.category === filter);
 
   return (
-    <section id="projects" className="py-24">
+    <section id="projects" className="bg-neutral-100/60 py-24 dark:bg-white/[0.02]">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <SectionHeading
           eyebrow="Projects"

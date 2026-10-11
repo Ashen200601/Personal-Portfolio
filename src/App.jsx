@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Home from "./sections/Home";
 import About from "./sections/About";
+import Experience from "./sections/Experience";
 import Skills from "./sections/Skills";
 import Projects from "./sections/Projects";
 import Education from "./sections/Education";
@@ -17,6 +18,7 @@ export default function App() {
       <main>
         <Home />
         <About />
+        <Experience />
         <Skills />
         <Projects />
         <Education />

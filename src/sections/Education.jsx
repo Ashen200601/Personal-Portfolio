@@ -4,7 +4,7 @@ import { certifications, education } from "../data/portfolio";
 
 export default function Education() {
   return (
-    <section id="education" className="bg-neutral-100/60 py-24 dark:bg-white/[0.02]">
+    <section id="education" className="py-24">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <SectionHeading eyebrow="Education" title="My learning journey" />
 

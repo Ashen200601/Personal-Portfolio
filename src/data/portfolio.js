@@ -30,6 +30,34 @@ export const about = {
 };
 
 
+export const experience = [
+  {
+    role: "Senior Implementation Engineer",
+    company: "Asian Logistic Solutions",
+    start: "2025-01-01", // YYYY-MM-DD
+    end: "2026-07-03", // set to null for a current role ("Present")
+    description:
+      "Worked across implementation, Java backend development, database administration and data analytics for a Transport Management System (TMS), progressing to the role of Senior Implementation Engineer.",
+    areas: [
+      "Java Backend Development",
+      "Database Administration",
+      "TMS Development",
+      "Data Analytics",
+      "Zoho Consulting",
+    ],
+    highlights: [
+      "Handled several major transporters and corporate customers as clients, delivering system implementations tailored to their operations.",
+      "Developed Java backend services and business logic for the Transport Management System.",
+      "Administered PostgreSQL databases powering the transport management platform.",
+      "Developed and enhanced Transport Management System front-end features using JavaScript, HTML and CSS.",
+      "Designed business and operational reports with JasperReports.",
+      "Built data analytics dashboards in Metabase to give clients and management visibility into their operations.",
+      "Worked as a Zoho consultant, configuring Zoho solutions to fit client business processes.",
+    ],
+    tags: ["Java", "PostgreSQL", "JasperReports", "Metabase", "JavaScript", "HTML", "CSS", "GitHub", "Zoho"],
+  },
+];
+
 export const skills = [
   {
     category: "Frontend",

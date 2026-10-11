@@ -37,7 +37,7 @@ const icons = {
 
 export default function Skills() {
   return (
-    <section id="skills" className="bg-neutral-100/60 py-24 dark:bg-white/[0.02]">
+    <section id="skills" className="py-24">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <SectionHeading
           eyebrow="Skills"
